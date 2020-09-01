@@ -4,15 +4,13 @@ import requests
 HEIGHT = 300   
 WIDTH = 400
 
-#f986c757443523b20c36ac886090f9a1
-#api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
 
 def test_function(entry):
     print("This is the entry", entry)
 
 def get_weather(city):
-    weather_key = 'f986c757443523b20c36ac886090f9a1'
-    url = 'https://api.openweathermap.org/data/2.5/weather'
+    weather_key = #key
+    url = #url
     params = {
         'APPID': weather_key,
         'q': city,
